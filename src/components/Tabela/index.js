@@ -2,7 +2,7 @@ import 'styles.css';
 
 function Tabela (){
   return(
-    <h1>Tabela</h1>
+    <h1>Tabela de codigo</h1>
   );
 }
 
