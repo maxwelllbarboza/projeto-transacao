@@ -1,9 +1,9 @@
 import 'styles.css';
 
-function Example (){
+function Header (){
   return(
     <h1>Header</h1>
   );
 }
 
-export default Example;
+export default Header;

@@ -1,9 +1,9 @@
 import 'styles.css';
 
-function Header (){
+function CardResumo (){
   return(
     <h1>Header</h1>
   );
 }
 
-export default Header;
+export default CardResumo;
