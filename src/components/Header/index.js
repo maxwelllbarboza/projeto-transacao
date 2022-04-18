@@ -1,8 +1,11 @@
-import 'styles.css';
+import './styles.css';
+import logo from '../../img/logo.svg';
 
-function Header (){
+function Header() {
   return(
-    <h1>Header</h1>
+    <header>
+      <img src={logo} alt='Logo' /> 
+    </header>
   );
 }
 
