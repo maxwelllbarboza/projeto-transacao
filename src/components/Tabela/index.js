@@ -1,8 +1,11 @@
-import 'styles.css';
+import './styles.css';
+import TituloTabela from './TituloTabela';
 
 function Tabela (){
   return(
-    <h1>Tabela</h1>
+    <div>
+      <TituloTabela></TituloTabela>    
+    </div>   
   );
 }
 

@@ -1,0 +1,25 @@
+.tabela-titulo{
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+  box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+  background: #fafafa;
+}
+
+.coluna-titulo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 45px;
+  width: 150px;
+}
+.coluna-titulo img{
+  width: 10px;
+  margin-top: 5px;
+}
+.coluna-titulo span{
+  margin-right: 5px;
+
+}
