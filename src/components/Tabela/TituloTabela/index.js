@@ -4,7 +4,7 @@ import SetaBaixo from '../../../img/seta_baixo.svg'
 import { useState } from 'react';
 
 function TituloTabela (){  
-  const [filtro, setFiltro] = useState('data');
+  const [filtro, setFiltro]   = useState('data');
   const [ordenar, setOrdenar] = useState('asc');
 
   function handleChangeFiltro(tipo){
@@ -63,11 +63,9 @@ function TituloTabela (){
           />
         }
         
-      </div>
-      
+      </div>      
       <div className='coluna-titulo'></div>
     </div>
   );
 }
-
 export default TituloTabela;
