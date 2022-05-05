@@ -8,7 +8,7 @@ import Botao from '../../components/Botao';
 
 function Main() {
 // const [transactions, setTransactions] = useState([]);
-const [open, setOpen] = useState(true)
+const [open] = useState(true)
 
 useEffect(() => {
   handleLoadTransacao();
